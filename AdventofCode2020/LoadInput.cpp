@@ -11,10 +11,10 @@ LoadInput::~LoadInput()
 {
 }
 
- std::list<int> LoadInput::ReadInts(std::string fileName)
+ std::vector<int> LoadInput::ReadInts(std::string fileName)
 {
 
-	std::list<int> toReturn;
+	std::vector<int> toReturn;
 	std::ifstream input;
 	input.open(fileName);
 	if (input.fail()) {

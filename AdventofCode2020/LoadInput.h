@@ -3,7 +3,7 @@ class LoadInput
 {
 public:
 	
-	static std::list<int> ReadInts(std::string fileName);
+	static std::vector<int> ReadInts(std::string fileName);
 
 private:
 	LoadInput();
