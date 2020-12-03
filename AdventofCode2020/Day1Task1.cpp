@@ -9,13 +9,13 @@ public:
 
 	}
 
-	std::list<int> inputs = LoadInput::ReadInts("task1input.txt");
+	std::list<int> inputs = LoadInput::ReadInts("Inputs/task1input.txt");
 
 	void Task() {
-		std::cout << " e";
 		for (int i = 0; i < inputs.size(); i++)
 		{
-			std::cout << i << " d";
+			std::cout << inputs.back() << std::endl;
+			inputs.pop_back();
 		}
 	}
 };
