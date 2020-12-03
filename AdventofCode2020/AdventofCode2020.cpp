@@ -5,7 +5,8 @@
 int main()
 {
 	Day1Task1 task;
-	task.Task();
+	task.Task1();
+	task.Task2();
 
 	std::getchar();
 }
